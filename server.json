@@ -3,24 +3,26 @@
 	"servVer": 1.0,
 	"author": "PRO_100_FOX",
 	
+//уведомление в трее//
 	"infoDialog":{
-	    "autoPop": true, 
-		"title": "Информация модпака PRO_100_FOX", 
+	    "autoPop": false, 
+		"title": "Информация об ModPack от PRO_100_FOX", 
 	    "message":[		
-		    "<br><font color='#FF0000' size='16'>Внимание! Мод 'Броняня' не работает.</font>",
+		    "<br><font color='#FF0000' size='16'>---</font>",
 		    "<p align='center'>",
 		    "<br><br><font color='#FFFFFF'>С уважением, {author}.</font>",
 		    "</p>"
 	    ],
-		"typeUrl": "http://goo.gl/yYa7eG",
+		"typeUrl": "---",
 		"buttons":{
 			"submit": null,
 			"close": "Закрыть"
 	    }	
-	},			
+	},
+//окно уведомления//
 	"newDialog":{
 	    "autoPop": true,
-	    "title": "Информация об обновлении модпака",
+	    "title": "Информация об обновлении ModPack от PRO_100_FOX",
 	    "message":[
  		    "<br><font color='#FFFF00' size='14'>Текущая версия: {localVer}</font>",
 		    "<br>",
@@ -49,19 +51,20 @@
 		    "<br> <img src='img://gui/maps/icons/library/mod_updater/Delete.png' width='16' height='16' vspace='-27'> - УГН Мини",		
 		    "<br> <img src='img://gui/maps/icons/library/mod_updater/Delete.png' width='16' height='16' vspace='-27'> - УГН Скобки",			
 		    "<br>",			
-		    "<br><font color='#F2E002'><b>С уважением, команда разработчиков {author}.</b></font>",
+		    "<br><font color='#F2E002'><b>С уважением, {author}.</b></font>",
 			"</font>",
 			"<br>",			
 		    "</p>"
 	    ],
-		"typeUrl": "http://goo.gl/yYa7eG",
+		"typeUrl": "---",
 		"buttons":{
 		    "submit": "Перейти",
 			"close": "Закрыть"
 	    }	
-	},	
+	},
+//бета тест окно//
 	"betaDialog":{
-	    "autoPop": true,
+	    "autoPop": false,
 	    "title": "Информация об beta обновлении модпака",
 	    "message":[
  		    "<br><font color='#FFFF00' size='14'>Текущая версия: {servVer}</font>",
