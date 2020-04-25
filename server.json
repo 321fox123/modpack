@@ -3,7 +3,6 @@
 	"servVer": 1.1,
 	"author": "PRO_100_FOX",
 	
-//уведомление в трее//
 	"infoDialog":{
 	    "autoPop": false, 
 		"title": "Информация об ModPack от PRO_100_FOX", 
@@ -19,7 +18,6 @@
 			"close": "Закрыть"
 	    }	
 	},
-//окно уведомления//
 	"newDialog":{
 	    "autoPop": true,
 	    "title": "Информация об обновлении ModPack от PRO_100_FOX",
@@ -62,7 +60,6 @@
 			"close": "Закрыть"
 	    }	
 	},
-//бета тест окно//
 	"betaDialog":{
 	    "autoPop": false,
 	    "title": "Информация об beta обновлении модпака",
