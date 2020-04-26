@@ -1,7 +1,7 @@
 {
-    "wotVer": "0.9.20.1.3",
-	"servVer": 3,
-	"author": "Piranhas",
+    "wotVer": "1.9.0.1",
+	"servVer": 1.1,
+	"author": "PRO_100_FOX",
 	
 	"infoDialog":{
 	    "autoPop": false, 
@@ -12,14 +12,14 @@
 		    "<br><br><font color='#FFFFFF'>С уважением, {author}.</font>",
 		    "</p>"
 	    ],
-		"typeUrl": "http://goo.gl/yYa7eG",
+		"typeUrl": "---",
 		"buttons":{
 			"submit": null,
 			"close": "Закрыть"
 	    }	
 	},			
 	"newDialog":{
-	    "autoPop": false,
+	    "autoPop": true,
 	    "title": "Информация об обновлении модпака",
 	    "message":[
  		    "<br><font color='#FFFF00' size='14'>Текущая версия: {localVer}</font>",
@@ -128,7 +128,7 @@
 	        ]	
 		},
 		"betaMessages":{
-			"enable": true,
+			"enable": false,
 			"message":[
  		        "<font color='#FF0000' size='16'> Установлена Beta версия</font>",
 		        "<textformat tabstops='[130]' leading='2'>",
