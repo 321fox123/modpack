@@ -1,5 +1,5 @@
 {
-  "version": "204",
+  "version": "1.0",
   "date": "24.04.2020",
   "rus": {
     "actual": [
@@ -31,38 +31,6 @@
     "changeLog": [
       "* Обновлен мод XVM",
       "* Незначительные исправления"
-    ]
-  },
-  "eng": {
-    "actual": [
-      "<font color='#C8C8B5'>Current build is actual</font>"
-    ],
-    "beta": [
-      "<font color='#C8C8B5'>Beta build version</font>"
-    ],
-    "update": [
-      "<font color='#C8C8B5'>Update available</font>",
-      "<a href='event:MPU:Info'>Learn more</a>"
-    ],
-    "elements": {
-      "title": "Update:",
-      "submit": "Download",
-      "close": "Close"
-    },
-    "updateDialog": [
-      "",
-      "<font color='#C8C8B5'>Client version: <font color='#00FF00'>{{gamePatch}}</font></font>",
-      "<font color='#C8C8B5'>Build version: <font color='#00FF00'>{{localDate}}</font></font>",
-      "<font color='#C8C8B5'>Update available: <font color='#FFBA00'>{{serverDate}}</font></font>",
-      "",
-      "<font color='#3075D8'><b>Change Log:</b></font>",
-      "{{changeLog}}",
-      "",
-      "<font size='0'>.</font>"
-    ],
-    "changeLog": [
-      "* Updated mod XVM",
-      "* Minor bug fixes"
     ]
   }
 }
